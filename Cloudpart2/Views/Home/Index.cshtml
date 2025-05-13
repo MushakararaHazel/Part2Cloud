@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about building this area with ASP.NET Core</p>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Venue</h5>
+                <p class="card-text">Manage all available venue</p>
+                <a asp-controller="Venues" asp-action="Index" class="btn btn-primary">View Venue</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Event</h5>
+                <p class="card-text">Create and manage event</p>
+                <a asp-controller="Events" asp-action="Index" class="btn btn-primary">View Event</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Booking</h5>
+                <p class="card-text">Handle all booking</p>
+                <a asp-controller="Bookings" asp-action="Index" class="btn btn-primary">View Booking</a>
+            </div>
+        </div>
+    </div>
+</div>

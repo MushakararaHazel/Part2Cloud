@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudPart1", "CloudPart1.csproj", "{9FEBF5FC-4B9D-4BEB-9A32-54BE91DFAC81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FEBF5FC-4B9D-4BEB-9A32-54BE91DFAC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEBF5FC-4B9D-4BEB-9A32-54BE91DFAC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEBF5FC-4B9D-4BEB-9A32-54BE91DFAC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEBF5FC-4B9D-4BEB-9A32-54BE91DFAC81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
